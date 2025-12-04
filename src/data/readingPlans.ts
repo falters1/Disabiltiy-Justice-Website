@@ -10,7 +10,6 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Beginner',
     imageUrl: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800',
     author: 'Dr. Sarah Chen',
-    enrolledCount: 1247,
     longDescription: 'This 7-day reading plan introduces you to the fundamental concepts that shape disability studies. You will learn about the social model of disability, understand the difference between impairment and disability, and explore how disability intersects with other identities.',
     learningObjectives: [
       'Understand the social model vs. medical model of disability',
@@ -44,7 +43,6 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Intermediate',
     imageUrl: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800',
     author: 'Marcus Williams',
-    enrolledCount: 892,
     longDescription: 'Dive deep into the disability justice movement, learning from activists who have fought for accessibility, inclusion, and liberation. This plan covers key moments in disability rights history and introduces you to the 10 principles of disability justice.',
     learningObjectives: [
       'Learn the history of disability rights activism',
@@ -62,7 +60,6 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Advanced',
     imageUrl: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=800',
     author: 'Prof. Aisha Patel',
-    enrolledCount: 654,
     longDescription: 'This advanced reading plan explores the intersections of disability with race, gender, sexuality, class, and other identities. Learn how systems of oppression are interconnected and why disability justice must be intersectional.',
     learningObjectives: [
       'Apply intersectionality framework to disability',
@@ -80,7 +77,6 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Beginner',
     imageUrl: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800',
     author: 'Jamie Rodriguez',
-    enrolledCount: 1103,
     longDescription: 'A practical guide to implementing accessibility in your work and life. Learn universal design principles, digital accessibility standards, and how to create inclusive environments.',
     learningObjectives: [
       'Understand universal design principles',
@@ -98,7 +94,6 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Beginner',
     imageUrl: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800',
     author: 'Alex Kim',
-    enrolledCount: 567,
     longDescription: 'Celebrate disability culture through art, literature, performance, and media. This plan introduces you to disabled artists who are reshaping culture and challenging ableist narratives.',
     learningObjectives: [
       'Discover disabled artists and their work',
@@ -116,7 +111,6 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Intermediate',
     imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800',
     author: 'Dr. Riley Thompson',
-    enrolledCount: 978,
     longDescription: 'Learn about the neurodiversity paradigm and autism advocacy from autistic people themselves. This plan challenges deficit-based narratives and celebrates neurological differences.',
     learningObjectives: [
       'Understand the neurodiversity paradigm',
