@@ -9,11 +9,11 @@ export const readingPlans: ReadingPlan[] = [
     category: 'Foundations',
     difficulty: 'Beginner',
     imageUrl: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800',
-    author: 'Dr. Sarah Chen',
-    longDescription: 'This 7-day reading plan introduces you to the fundamental concepts that shape disability studies. You will learn about the social model of disability, understand the difference between impairment and disability, and explore how disability intersects with other identities.',
+    author: 'N/A',
+    longDescription: 'This 7-day reading plan introduces you to the fundamental concepts that shape disability studies.',
     learningObjectives: [
       'Understand the social model vs. medical model of disability',
-      'Recognize ableism in everyday life',
+      'Hear stories from people with disabilities',
       'Learn about the history of the disability rights movement',
       'Explore disability identity and culture'
     ],
@@ -22,14 +22,14 @@ export const readingPlans: ReadingPlan[] = [
         day: 1,
         title: 'What is Disability Studies?',
         content: 'Disability Studies is an academic field that examines disability as a social, cultural, and political phenomenon rather than simply a medical condition.',
-        resources: ['Introduction to Disability Studies by Lennard Davis', 'The Social Model of Disability'],
+        resources: ['N/A'],
         reflectionQuestions: ['How has your understanding of disability been shaped by medical narratives?', 'What might change if we viewed disability through a social lens?']
       },
       {
         day: 2,
         title: 'The Social Model of Disability',
         content: 'The social model argues that people are disabled by barriers in society, not by their impairment or difference.',
-        resources: ['Mike Oliver - The Social Model', 'UPIAS Statement 1976'],
+        resources: ['N/A'],
         reflectionQuestions: ['What barriers exist in your community that disable people?', 'How can we shift from fixing individuals to fixing society?']
       }
     ]
@@ -42,13 +42,13 @@ export const readingPlans: ReadingPlan[] = [
     category: 'Activism',
     difficulty: 'Intermediate',
     imageUrl: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800',
-    author: 'Marcus Williams',
-    longDescription: 'Dive deep into the disability justice movement, learning from activists who have fought for accessibility, inclusion, and liberation. This plan covers key moments in disability rights history and introduces you to the 10 principles of disability justice.',
+    author: 'N/A',
+    longDescription: 'Dive deep into the disability justice movement, learning from activists who have fought for accessibility, inclusion, and liberation. This plan covers key moments in disability rights history and introduces you to the 10 principles of disability justice. Prerequisites: Introduction to Disability Studies.',
     learningObjectives: [
       'Learn the history of disability rights activism',
       'Understand the 10 principles of disability justice',
       'Study key activists and their contributions',
-      'Connect disability justice to other liberation movements'
+      'Connect disability justice to other movements'
     ]
   },
   {
@@ -59,69 +59,35 @@ export const readingPlans: ReadingPlan[] = [
     category: 'Theory',
     difficulty: 'Advanced',
     imageUrl: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=800',
-    author: 'Prof. Aisha Patel',
+    author: 'N/A',
     longDescription: 'This advanced reading plan explores the intersections of disability with race, gender, sexuality, class, and other identities. Learn how systems of oppression are interconnected and why disability justice must be intersectional.',
     learningObjectives: [
       'Apply intersectionality framework to disability',
-      'Understand multiple marginalization',
-      'Learn from scholars of color in disability studies',
+      'Analyze case studies of intersecting identities',
+      'Explore systemic oppression affecting disabled people of color',
       'Examine disability in different cultural contexts'
     ]
   },
   {
     id: '4',
-    title: 'Accessible Design Principles',
-    description: 'Practical approaches to creating accessible spaces, technology, and communication.',
-    duration: 5,
-    category: 'Practice',
-    difficulty: 'Beginner',
-    imageUrl: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800',
-    author: 'Jamie Rodriguez',
-    longDescription: 'A practical guide to implementing accessibility in your work and life. Learn universal design principles, digital accessibility standards, and how to create inclusive environments.',
-    learningObjectives: [
-      'Understand universal design principles',
-      'Learn WCAG accessibility guidelines',
-      'Create accessible documents and presentations',
-      'Design inclusive physical spaces'
-    ]
-  },
-  {
-    id: '5',
-    title: 'Disability Culture & Arts',
-    description: 'Explore the rich cultural contributions of disabled artists, writers, and performers.',
-    duration: 7,
-    category: 'Culture',
-    difficulty: 'Beginner',
-    imageUrl: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800',
-    author: 'Alex Kim',
-    longDescription: 'Celebrate disability culture through art, literature, performance, and media. This plan introduces you to disabled artists who are reshaping culture and challenging ableist narratives.',
-    learningObjectives: [
-      'Discover disabled artists and their work',
-      'Understand disability aesthetics',
-      'Learn about crip time and disabled ways of being',
-      'Explore disability representation in media'
-    ]
-  },
-  {
-    id: '6',
-    title: 'Neurodiversity & Autism Advocacy',
-    description: 'Understanding neurodiversity as natural human variation and learning from autistic self-advocates.',
+    title: 'Hostile Architecture & Public Space',
+    description: 'Analyze how urban design can exclude disabled people and ways to advocate for inclusive spaces.',
     duration: 10,
-    category: 'Neurodiversity',
+    category: 'Practice',
     difficulty: 'Intermediate',
-    imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800',
-    author: 'Dr. Riley Thompson',
-    longDescription: 'Learn about the neurodiversity paradigm and autism advocacy from autistic people themselves. This plan challenges deficit-based narratives and celebrates neurological differences.',
+    imageUrl: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    author: 'N/A',
+    longDescription: 'This reading plan examines the concept of hostile architecture—design elements that deter certain behaviors or populations, often impacting disabled individuals.',
     learningObjectives: [
-      'Understand the neurodiversity paradigm',
-      'Learn from autistic self-advocates',
-      'Challenge medical model narratives of autism',
-      'Support neurodivergent people authentically'
+      'Identify examples of hostile architecture',
+      'Understand the impact on disabled communities',
+      'Why does hostile architecture exist?',
+      'Advocate for inclusive urban design'
     ]
   }
 ];
 
-export const categories = ['All', 'Foundations', 'Activism', 'Theory', 'Practice', 'Culture', 'Neurodiversity'];
+export const categories = ['All', 'Foundations', 'Activism', 'Theory', 'Practice'];
 
 export const getPlanById = (id: string): ReadingPlan | undefined => {
   return readingPlans.find(plan => plan.id === id);

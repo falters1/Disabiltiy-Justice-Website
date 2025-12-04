@@ -12,9 +12,9 @@ export const dailyQuotes: DailyQuote[] = [
     context: "Disability justice performance project"
   },
   {
-    text: "Access is love.",
-    author: "Disability Justice Movement",
-    context: "Core principle"
+    text: "True accountability is not only apologizing, understanding the impact your actions have caused on yourself and others, making amends or reparations to the harmed parties; but most importantly, true accountability is changing your behavior so that the harm, violence, abuse does not happen again.",
+    author: "Mia Mingus",
+    context: "Disability activist"
   },
   {
     text: "Storytelling can be more than a blog post, essay, or book. It can be an emoji, a meme, a selfie, or a tweet. It can become a movement for social change.",
