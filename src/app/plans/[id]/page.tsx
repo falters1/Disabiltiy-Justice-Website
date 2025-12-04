@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, Calendar, Users, BookOpen, Target } from 'lucide-react';
+import { ArrowLeft, Calendar, BookOpen, Target } from 'lucide-react';
 import { getPlanById } from '@/data/readingPlans';
 
 export default function PlanDetailPage({ params }: { params: { id: string } }) {
@@ -59,10 +59,6 @@ export default function PlanDetailPage({ params }: { params: { id: string } }) {
               <div className="flex items-center space-x-2 text-gray-600">
                 <Calendar className="w-5 h-5 text-purple-600" />
                 <span><strong>{plan.duration}</strong> days</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-600">
-                <Users className="w-5 h-5 text-purple-600" />
-                <span><strong>{plan.enrolledCount.toLocaleString()}</strong> enrolled</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-600">
                 <BookOpen className="w-5 h-5 text-purple-600" />
