@@ -2,14 +2,14 @@ import { DailyQuote } from '@/types';
 
 export const dailyQuotes: DailyQuote[] = [
   {
-    text: "Disability is not a brave struggle or courage in the face of adversity. Disability is an art. It's an ingenious way to live.",
-    author: "Neil Marcus",
-    context: "Poet and playwright"
+    text: "All bodies are caught in the bindings of ability, race, class, gender, sexual orientation, sexuality, citizenship. We are powerful not despite the complexities of our identities, but because of them. Only universal, collective access can lead to universal, collective liberation.",
+    author: "Sins Invalid",
+    context: "Disability justice performance project"
   },
   {
-    text: "We are powerful, not despite the complexities of our bodies, but because of them.",
-    author: "Harriet McBryde Johnson",
-    context: "Attorney and disability rights activist"
+    text: "There has always been resistance to all forms of oppression, as we know through our bones that there have simultaneously been disabled people visioning a world where we flourish, that values and celebrates us in all our myriad beauty.",
+    author: "Sins Invalid",
+    context: "Disability justice performance project"
   },
   {
     text: "Access is love.",
@@ -17,24 +17,24 @@ export const dailyQuotes: DailyQuote[] = [
     context: "Core principle"
   },
   {
-    text: "When we design for disability first, we create better things for everyone.",
-    author: "Elise Roy",
-    context: "Disability rights lawyer and activist"
+    text: "Storytelling can be more than a blog post, essay, or book. It can be an emoji, a meme, a selfie, or a tweet. It can become a movement for social change.",
+    author: "Alice Wong",
+    context: "Disability activist"
   },
   {
-    text: "Nothing about us without us.",
-    author: "Disability Rights Movement",
-    context: "Fundamental slogan"
-  },
-  {
-    text: "Disability is a natural part of the human experience.",
+    text: "For we are leaders of inclusiveness and community, of love, equity, and justice.",
     author: "Judith Heumann",
     context: "Disability rights advocate"
   },
   {
-    text: "Our struggle is not for the right to be the same, but for the right to be different.",
-    author: "Autistic Self Advocacy Network",
-    context: "Neurodiversity movement"
+    text: "Part of the problem is that we tend to think that equality is about treating everyone the same, when it’s not. It’s about fairness. It’s about equity of access.",
+    author: "Judith Heumann",
+    context: "Disability rights advocate"
+  },
+  {
+    text: "Advocacy is not just a task for charismatic individuals or high-profile community organizers. Advocacy is for all of us; advocacy is a way of life. It is a natural response to the injustices and inequality in the world.",
+    author: "Alice Wong",
+    context: "Disability activist"
   }
 ];
 
