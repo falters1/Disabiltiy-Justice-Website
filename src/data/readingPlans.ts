@@ -36,19 +36,19 @@ export const readingPlans: ReadingPlan[] = [
   },
   {
     id: '2',
-    title: 'Disability Justice & Activism',
-    description: 'Learn about the disability justice movement and key activists who shaped accessibility rights.',
+    title: 'Disability Justice through a Christian Lens',
+    description: 'Understand disability justice from theological and faith-based perspectives.',
     duration: 14,
-    category: 'Activism',
+    category: 'Faith',
     difficulty: 'Intermediate',
-    imageUrl: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1613963986655-ba1797350998?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     author: 'N/A',
-    longDescription: 'Dive deep into the disability justice movement, learning from activists who have fought for accessibility, inclusion, and liberation. This plan covers key moments in disability rights history and introduces you to the 10 principles of disability justice. Prerequisites: Introduction to Disability Studies.',
+    longDescription: 'This reading plan explores disability justice through Christian theology. Engage with scripture, theological writings, and stories from faith communities advocating for disability rights.',
     learningObjectives: [
-      'Learn the history of disability rights activism',
-      'Understand the 10 principles of disability justice',
-      'Study key activists and their contributions',
-      'Connect disability justice to other movements'
+      'Explore biblical perspectives on disability',
+      'Unpack various christian models of disability',
+      'Analyze the role of the church in disability justice',
+      'Share stories of faith communities embracing disability'
     ]
   },
   {
@@ -87,7 +87,7 @@ export const readingPlans: ReadingPlan[] = [
   }
 ];
 
-export const categories = ['All', 'Foundations', 'Activism', 'Theory', 'Practice'];
+export const categories = ['All', 'Foundations', 'Faith', 'Theory', 'Practice'];
 
 export const getPlanById = (id: string): ReadingPlan | undefined => {
   return readingPlans.find(plan => plan.id === id);
