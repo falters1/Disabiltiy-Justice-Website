@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Calendar, Users, ChevronRight } from 'lucide-react';
+import { Calendar, ChevronRight } from 'lucide-react';
 import { ReadingPlan } from '@/types';
 
 interface PlanCardProps {
@@ -35,14 +35,10 @@ export default function PlanCard({ plan }: PlanCardProps) {
           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-2">{plan.title}</h3>
           <p className="text-gray-600 text-sm mb-4 line-clamp-2 flex-1">{plan.description}</p>
-          <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+          <div className="flex items-center text-sm text-gray-500 mb-4">
             <div className="flex items-center space-x-1">
               <Calendar className="w-4 h-4" />
               <span>{plan.duration} days</span>
-            </div>
-            <div className="flex items-center space-x-1">
-              <Users className="w-4 h-4" />
-              <span>{plan.enrolledCount.toLocaleString()}</span>
             </div>
           </div>
           <div className="flex items-center justify-between">

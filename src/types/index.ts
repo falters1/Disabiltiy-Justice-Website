@@ -7,7 +7,6 @@ export interface ReadingPlan {
     difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
     imageUrl: string;
     author: string;
-    enrolledCount: number;
     longDescription?: string;
     learningObjectives?: string[];
     dailyReadings?: DayReading[];
