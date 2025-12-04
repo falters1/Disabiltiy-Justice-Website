@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">About</h3>
             <p className="text-gray-400">
-              A platform dedicated to disability justice education, centering disabled voices and experiences.
+              A platform dedicated to disability justice education.
             </p>
           </div>
           <div>
@@ -36,11 +36,12 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">Connect</h3>
             <p className="text-gray-400 mb-4">
               Join our community in building a more accessible and just world.
+              If you would like to contribute, please reach out!
             </p>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>Built with accessibility and inclusion at the core</p>
+          <p>Built with accessibility and inclusion in mind</p>
         </div>
       </div>
     </footer>
