@@ -1,3 +1,4 @@
+// src/components/Header.tsx
 'use client';
 
 import React from 'react';
@@ -21,11 +22,11 @@ export default function Header() {
             <Link href="/" className="text-gray-700 hover:text-purple-600 transition">
               Reading Plans
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-purple-600 transition">
-              About
+            <Link href="/getting-started" className="text-gray-700 hover:text-purple-600 transition">
+              Getting Started
             </Link>
-            <Link href="#community" className="text-gray-700 hover:text-purple-600 transition">
-              Community
+            <Link href="/accessibility" className="text-gray-700 hover:text-purple-600 transition">
+              Accessibility
             </Link>
           </nav>
 
@@ -51,7 +52,7 @@ export default function Header() {
               className="block text-gray-700 hover:text-purple-600 transition py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Reading Plans
+              Reading Plans (DISCLAIMER WEBSITE STILL IN DEVELOPMENT)
             </Link>
             <Link
               href="#about"
@@ -73,3 +74,9 @@ export default function Header() {
     </header>
   );
 }
+
+
+
+
+
+

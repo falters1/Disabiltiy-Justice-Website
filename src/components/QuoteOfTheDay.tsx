@@ -1,3 +1,4 @@
+
 'use client';
 
 import React, { useEffect, useState } from 'react';
@@ -21,7 +22,7 @@ export default function QuoteOfTheDay() {
         <div className="relative z-10">
           <div className="flex items-center space-x-2 mb-4">
             <Quote className="w-6 h-6" />
-            <span className="text-sm font-semibold uppercase tracking-wide">Quote of the Day</span>
+            <span className="text-sm font-semibold uppercase tracking-wide">Quote of the Day (DISCLAIMER WEBSITE STILL IN DEVELOPMENT)</span>
           </div>
           <blockquote className="text-2xl md:text-3xl font-serif mb-4 leading-relaxed">
             "{quote.text}"
