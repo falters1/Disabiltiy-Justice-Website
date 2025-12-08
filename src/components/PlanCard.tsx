@@ -1,6 +1,3 @@
-// ============================================
-
-// src/components/PlanCard.tsx
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -12,8 +9,11 @@ interface PlanCardProps {
 }
 
 export default function PlanCard({ plan }: PlanCardProps) {
+  // Special handling for Christianity plan to use custom page
+  const linkHref = plan.id === '2' ? '/plans/christianity' : `/plans/${plan.id}`;
+  
   return (
-    <Link href={`/plans/${plan.id}`}>
+    <Link href={linkHref}>
       <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:-translate-y-1 h-full flex flex-col">
         <div className="h-48 overflow-hidden relative">
           <Image

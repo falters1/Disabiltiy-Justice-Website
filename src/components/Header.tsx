@@ -52,7 +52,7 @@ export default function Header() {
               className="block text-gray-700 hover:text-purple-600 transition py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Reading Plans (DISCLAIMER WEBSITE STILL IN DEVELOPMENT)
+              Reading Plans
             </Link>
             <Link
               href="#about"
