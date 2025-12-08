@@ -97,7 +97,7 @@ export default function ChristianityPlanPage() {
         day: 9,
         title: 'Deborah Beth Creamer: Limitations',
         content: 'Creamer’s “limits model” emphasizes that all people have limits, and disability can make these limits more visible. Reflect on how this model broadens conversations around access and embodiment.',
-        resources: ['Creamer - Disability and Christian Theology'],
+        resources: ['Creamer - Disability and Christian Theology: Embodied Limits and Constructive Possibilities'],
         reflectionQuestions: [
           'How does this model differ from others you’ve seen?',
           'What does it reveal about how we treat limitations?',
