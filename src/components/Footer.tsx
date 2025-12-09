@@ -1,3 +1,5 @@
+// ============================================
+
 // src/components/Footer.tsx
 import React from 'react';
 import Link from 'next/link';
@@ -17,17 +19,17 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">Resources</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link href="/getting-started" className="hover:text-white transition">
+                <Link href="#" className="hover:text-white transition">
                   Getting Started
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-white transition">
+                <Link href="#" className="hover:text-white transition">
                   Community Guidelines
                 </Link>
               </li>
               <li>
-                <Link href="/accessibility" className="hover:text-white transition">
+                <Link href="#" className="hover:text-white transition">
                   Accessibility Statement
                 </Link>
               </li>

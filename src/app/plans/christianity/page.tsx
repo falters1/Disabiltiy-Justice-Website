@@ -63,7 +63,7 @@ export default function ChristianityPlanPage() {
       {
         day: 6,
         title: 'Introduction to Disability Theology',
-        content: 'Today, explore some basics of disability theology. It invites us to move beyond charity or cure-focused approaches and to consider disability as part of human diversity.',
+        content: 'Today, explore some basics of disability theology. It invites us to move beyond charity or cure focused approaches and to consider disability as part of human diversity.',
         resources: ['Jeff McNair, Ben Rhodes - "Towards a Christian Model of Disability"'],
         reflectionQuestions: [
           'What parts of this perspective feel new to you?',
@@ -140,7 +140,7 @@ export default function ChristianityPlanPage() {
       {
         day: 13,
         title: 'Building Accessible Faith Communities',
-        content: 'Reflect on what makes a community genuinely accessible—physically, socially, and theologically. Consider practical, everyday ways this takes shape.',
+        content: 'Reflect on what makes a community genuinely accessible (physically, socially, and theologically). Consider practical, everyday ways this takes shape.',
         resources: ['Accessibility guides for churches'],
         reflectionQuestions: [
           'What forms of access exist in your community?',
