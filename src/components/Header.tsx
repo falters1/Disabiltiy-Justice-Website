@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition">
             <BookOpen className="w-8 h-8 text-purple-600" />
-            <h1 className="text-2xl font-bold text-gray-900">Disability Justice Reads</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Disability Justice Reads (DISCLAIMER WEBSITE STILL IN DEVELOPMENT)</h1>
           </Link>
           
           {/* Desktop Navigation */}
