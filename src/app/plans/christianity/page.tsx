@@ -289,7 +289,6 @@ export default function ChristianityPlanPage() {
               <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6">
                 <div className="flex items-center justify-between">
                   <h3 className="text-2xl font-bold">Day {reading.day}</h3>
-                  <Heart className="w-6 h-6" />
                 </div>
                 <h4 className="text-xl mt-2">{reading.title}</h4>
               </div>
