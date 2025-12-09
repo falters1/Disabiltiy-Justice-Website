@@ -107,7 +107,7 @@ export default function ChristianityPlanPage() {
       {
         day: 10,
         title: 'The Imago Dei: Created in God’s Image',
-        content: 'Return to Genesis 1:27 and reflect on what it means for *everyone* to be made in God’s image. Think about how this relates to diversity in bodies and minds.',
+        content: 'Return to Genesis 1:27 and reflect on what it means for "everyone" to be made in God’s image. Think about how this relates to diversity in bodies and minds.',
         resources: ['Genesis 1:27'],
         reflectionQuestions: [
           'How has “image of God” been discussed in your experience?',
