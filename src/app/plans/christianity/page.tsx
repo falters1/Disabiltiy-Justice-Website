@@ -223,6 +223,7 @@ export default function ChristianityPlanPage() {
                 Beginning with traditional biblical healing narratives, we move into contemporary disability 
                 theology that challenges ableist interpretations, and finally return to scripture with new eyes. 
                 You will explore how disabled theologians are reshaping Christian thought and practice.
+                Pre-Requisites: Social and Medical Models of Disability, Experience with Biblical Texts are helpful.
               </p>
             </div>
 

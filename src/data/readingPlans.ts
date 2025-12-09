@@ -10,7 +10,7 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Beginner',
     imageUrl: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800',
     author: 'N/A',
-    longDescription: 'This 7-day reading plan introduces you to the fundamental concepts that shape disability studies.',
+    longDescription: 'This 7-day reading plan introduces you to the fundamental concepts that shape disability studies. Pre-Requisites: None.',
     learningObjectives: [
       'Understand the social model vs. medical model of disability',
       'Hear stories from people with disabilities',
@@ -43,7 +43,7 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Intermediate',
     imageUrl: 'https://images.unsplash.com/photo-1613963986655-ba1797350998?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     author: 'N/A',
-    longDescription: 'This reading plan explores disability justice through Christian theology. Engage with scripture, theological writings, and stories from faith communities advocating for disability rights.',
+    longDescription: 'This reading plan explores disability justice through Christian theology. Engage with scripture, theological writings, and stories from faith communities advocating for disability rights. Pre-Requisties: Understanding of the Social and Medical Models of Disability, Experience with the Bible is helpful.',
     learningObjectives: [
       'Explore biblical perspectives on disability',
       'Unpack various christian models of disability',
@@ -60,7 +60,7 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Advanced',
     imageUrl: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=800',
     author: 'N/A',
-    longDescription: 'This advanced reading plan explores the intersections of disability with race, gender, sexuality, class, and other identities. Learn how systems of oppression are interconnected and why disability justice must be intersectional.',
+    longDescription: 'This advanced reading plan explores the intersections of disability with race, gender, sexuality, class, and other identities. Learn how systems of oppression are interconnected and why disability justice must be intersectional. Pre-Requisites: Strong Understanding of Disability Studies, Knowledge in adjacent fields is helpful.',
     learningObjectives: [
       'Apply intersectionality framework to disability',
       'Analyze case studies of intersecting identities',
@@ -77,7 +77,7 @@ export const readingPlans: ReadingPlan[] = [
     difficulty: 'Intermediate',
     imageUrl: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     author: 'N/A',
-    longDescription: 'This reading plan examines the concept of hostile architecture—design elements that deter certain behaviors or populations, often impacting disabled individuals.',
+    longDescription: 'This reading plan examines the concept of hostile architecture—design elements that deter certain behaviors or populations, often impacting disabled individuals. Pre-Requisites: None',
     learningObjectives: [
       'Identify examples of hostile architecture',
       'Understand the impact on disabled communities',

@@ -53,6 +53,59 @@ export default function GettingStartedPage() {
             </div>
           </div>
         </section>
+        {/*Who is This For */}
+        <section className="bg-purple-50 rounded-2xl shadow-lg p-8 md:p-12 mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Who This Is For</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-lg p-6">
+              <h3 className="font-bold text-gray-900 mb-2"> The Curious Learner</h3>
+              <p className="text-gray-700 text-sm">
+                You've heard about disability justice and want to understand what it means. You're ready to 
+                question your assumptions and learn.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6">
+              <h3 className="font-bold text-gray-900 mb-2"> The Educator</h3>
+              <p className="text-gray-700 text-sm">
+                You want to incorporate disability justice into your teaching, workplace training, or 
+                community organizing.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6">
+              <h3 className="font-bold text-gray-900 mb-2"> The Professional</h3>
+              <p className="text-gray-700 text-sm">
+                You work in design, policy, healthcare, education, or any field where your decisions impact 
+                accessibility and inclusion.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6">
+              <h3 className="font-bold text-gray-900 mb-2"> The Friend</h3>
+              <p className="text-gray-700 text-sm">
+                You want to show up for disabled people in your life and community in meaningful, informed ways.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6">
+              <h3 className="font-bold text-gray-900 mb-2"> The Person with Disability</h3>
+              <p className="text-gray-700 text-sm">
+                You want language and frameworks to understand your own experiences or advocate for yourself 
+                and your community.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6">
+              <h3 className="font-bold text-gray-900 mb-2"> The Academic</h3>
+              <p className="text-gray-700 text-sm">
+                You're studying disability in a formal setting and want supplementary resources 
+                or a refresher on key concepts.
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Why This Matters */}
         <section className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-xl p-8 md:p-12 mb-8 text-white">
@@ -121,8 +174,7 @@ export default function GettingStartedPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-3">Accessibility First</h3>
               <p className="text-gray-700 leading-relaxed">
                 We believe accessibility isn't just about who can access our website. It's about who can access 
-                the knowledge itself. Our reading plans use clear language, provide context for terminology, 
-                and break complex ideas into digestible pieces.
+                the knowledge itself. 
               </p>
             </div>
 
@@ -130,12 +182,12 @@ export default function GettingStartedPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-3">Quick and Meaningful</h3>
               <p className="text-gray-700 leading-relaxed">
                 Each daily reading is designed to take 15-30 minutes. You don't need to dedicate hours to 
-                learn something valuable. We respect your time while ensuring depth of understanding.
+                learn something valuable.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Multiple Entry Points</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Anyone is Welcome</h3>
               <p className="text-gray-700 leading-relaxed">
                 Whether you're a complete beginner, someone with lived experience of disability, an educator, 
                 or an activist, we have reading plans that meet you where you are. Choose plans based on your 
@@ -153,8 +205,7 @@ export default function GettingStartedPage() {
           </h2>
           
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Even if you don't identify as disabled, disability justice shapes your world in ways you might 
-            not realize:
+            Disability justice shapes your world in ways you might not realize:
           </p>
 
           <div className="space-y-4 text-gray-700">
@@ -186,8 +237,8 @@ export default function GettingStartedPage() {
             <div className="flex items-start space-x-3">
               <div className="flex-shrink-0 w-2 h-2 bg-purple-600 rounded-full mt-2"></div>
               <p>
-                <strong className="text-gray-900">Flexible work arrangements</strong> fought for by disabled 
-                workers now benefit working parents, people managing chronic conditions, and anyone seeking 
+                <strong className="text-gray-900">Flexible work arrangements</strong> fought for by workers with disabilities 
+                now benefit working parents, people managing chronic conditions, and anyone seeking 
                 work-life balance.
               </p>
             </div>
