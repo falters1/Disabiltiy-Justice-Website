@@ -29,8 +29,7 @@ export default function GettingStartedPage() {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Disability Justice Reads provides easy to understand reading plans that educate people about 
             disability studies, justice, and activism. We break down complex theory and academic concepts 
-            into accessible, engaging content for everyone — whether you're brand new to disability studies 
-            or deepening your existing knowledge.
+            into accessible, engaging content for everyone!
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
