@@ -28,7 +28,7 @@ export default function AccessibilityPage() {
               We are continually improving the user experience for everyone and applying the relevant accessibility standards.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              We believe that accessibility is not just a feature—it is a fundamental right. Our platform centers 
+              We believe that accessibility is not just a feature-it is a fundamental right. Our platform centers 
               the principles of disability justice, which means building with and for disabled communities from the ground up.
             </p>
           </section>

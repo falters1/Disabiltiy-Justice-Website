@@ -90,7 +90,7 @@ export default function GettingStartedPage() {
             </div>
 
             <div className="bg-white rounded-lg p-6">
-              <h3 className="font-bold text-gray-900 mb-2"> The Person with Disability</h3>
+              <h3 className="font-bold text-gray-900 mb-2"> The Person with Disabilities</h3>
               <p className="text-gray-700 text-sm">
                 You want language and frameworks to understand your own experiences or advocate for yourself 
                 and your community.
